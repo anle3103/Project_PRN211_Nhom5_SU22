@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "Project_PRN": "server=DESKTOP-02634KD\\SQLEXPRESS;database=Project_PRN;uid=sa;pwd=123"
+  }
+
+}
