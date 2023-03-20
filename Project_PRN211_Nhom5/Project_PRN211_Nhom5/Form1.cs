@@ -107,7 +107,7 @@ namespace Project_PRN211_Nhom5
                 if (txtID.Text.Equals("") || txtTenSanPham.Text.Equals("") || txtGiaGoc.Text.Equals("") || txtGiaBan.Text.Equals("")
                     || txtSoLuong.Text.Equals("") || txtNgayNhap.Text.Equals(""))
                 {
-                    MessageBox.Show("Không để trống dữ liệu");
+                    MessageBox.Show("Không được để trống dữ liệu");
                     return;
                 }
                 if (decimal.Parse(txtGiaGoc.Text) <= 0 || int.Parse(txtSoLuong.Text) <= 0)
