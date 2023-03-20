@@ -173,7 +173,7 @@ namespace Project_PRN211_Nhom5
                     int count = context.SaveChanges();
                     if (count > 0)
                     {
-                        MessageBox.Show("Cập nhật sản phẩm thành công.");
+                        MessageBox.Show("Cập nhật sản phẩm thành công !");
                         LoadData();
                     }
 
